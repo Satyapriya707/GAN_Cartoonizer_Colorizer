@@ -1,0 +1,13 @@
+__pycache__
+input_images/
+input_video/
+output_images/
+output_video/
+cartoonize/cartoon_gan/pretrained_models/*
+!cartoonize/cartoon_gan/pretrained_models/.gitkeep
+cartoonize/wb_cartoonization/models/*
+!cartoonize/wb_cartoonization/models/.gitkeep
+cartoonize/white_box_cartoonizer/saved_models/*
+!cartoonize/white_box_cartoonizer/saved_models/.gitkeep
+colourize/models/*
+!colourize/models/.gitkeep

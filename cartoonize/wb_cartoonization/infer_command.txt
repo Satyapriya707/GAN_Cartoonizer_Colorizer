@@ -1,0 +1,13 @@
+python scripts/whiteboxgan.py --stage infer --ckpt=models/whitebox-v2/whitebox/version_0/checkpoints/epoch=4.ckpt --extra=image_path:asset/whitebox_test.jpg,device:cuda,batch_size:16,load_size:1080
+
+
+python scripts/whiteboxgan.py --stage infer --ckpt=models/whitebox-v2/whitebox/version_1/checkpoints/epoch=4.ckpt --extra=image_path:asset/whitebox_test.jpg,device:cuda,batch_size:16,load_size:1080
+
+
+python scripts/whiteboxgan.py --stage infer --ckpt=models/whitebox-v2/whitebox/version_2/checkpoints/epoch=6.ckpt --extra=image_path:asset/whitebox_test.jpg,device:cuda,batch_size:16,load_size:1080
+
+
+
+
+
+python scripts/whiteboxgan.py --config=configs/whitebox.yaml --stage infer --ckpt=models/whitebox-v2/whitebox/version_2/checkpoints/epoch=6.ckpt --extra=image_path:asset/whitebox_test.jpg,device:cuda,batch_size:16,load_size:1080
